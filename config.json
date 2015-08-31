@@ -74,7 +74,8 @@
                 "lc:subjects",
                 "fast",
                 "agrovoc",
-                "local:Subjects"
+                "local:Subjects",
+                "mesh"
             ]
         },
         "Places": {
@@ -195,6 +196,17 @@
                 "queryArgs": "&queryIndex=suggestall&queryReturn=suggestall%2Cidroot%2Cauth%2Ctag%2Ctype%2Craw%2Cbreaker%2Cindicator&rows=10",
                 "arg": "query"
             }
+        },
+        "mesh": {
+            "short": "MESH",
+            "full": "NLM Medical Subject Headings",
+            "config": {
+                "host": "id.nlm.nih.gov",
+                "path": "/mesh/sparql",
+                "queryArgs": "&format=JSON&limit=10&inference=false",
+                "arg": "query"
+            },
+            "sparql": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT ?concept ?label WHERE { ?concept rdfs:label ?label . FILTER regex(str(?label), \"^%s\", \"i\") . }"
         },
         "agrovoc": {
             "short": "AgroVoc",
