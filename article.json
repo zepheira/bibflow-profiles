@@ -63,7 +63,7 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/lite/title",
-                                "propertyLabel": "Transcribed Title"
+                                "propertyLabel": "Title Proper"
                             },
                             "repeatable": "false",
                             "type": "literal"
@@ -282,7 +282,7 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/lite/title",
-                                "propertyLabel": "Transcribed Title"
+                                "propertyLabel": "Title Proper"
                             },
                             "repeatable": "false",
                             "type": "literal"
