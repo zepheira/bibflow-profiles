@@ -1,49 +1,236 @@
 {
-    "Profile": {
-        "title": "Concept",
-        "resourceTemplate": [
+  "Profile": {
+    "id": "bfp:Concept",
+    "title": "BIBFRAME Concepts (Person, Place, Thing)",
+    "resourceTemplate": [
+      {
+        "id": "bfp:Concept:Organization",
+        "labelProperty": "http://bibfra.me/vocab/lite/label",
+        "class": {
+          "classLabel": "Concept (Organization)",
+          "type": "http://bibfra.me/vocab/marc/ConceptOrganization",
+          "propertyTemplate": [
             {
-                "id": "bfp:Concept",
-                "class": {
-                    "type": "http://bibfra.me/vocab/lite/Concept",
-                    "propertyTemplate": [
-                        {
-                            "property": {
-                                "id": "http://bibfra.me/vocab/lite/label",
-                                "propertyLabel": "Label"
-                            },
-                            "type": "literal"
-                        },
-                        {
-                            "property": {
-                                "id": "http://bibfra.me/vocab/lite/authorityLink",
-                                "propertyLabel": "Authority Link"
-                            },
-                            "repeatable": "true",
-                            "type": "resource"
-                        },
-                        {
-                            "property": {
-                                "id": "http://bibfra.me/vocab/lite/focus",
-                                "propertyLabel": "Subject"
-                            },
-                            "repeatable": "true",
-                            "type": "resource",
-                            "valueConstraint": {
-                                "descriptionTemplateRef": [
-                                    "bfp:Agent:Person",
-                                    "bfp:Agent:Family",
-                                    "bfp:Agent:Organization",
-                                    "bfp:Agent:Meeting",
-                                    "bfp:Authority:Topic",
-                                    "bfp:Authority:Place",
-                                    "bfp:Language"
-                                ]
-                            }
-                        }
-                    ]
-                }
+              "property": {
+                "id": "http://bibfra.me/vocab/lite/focus",
+                "propertyLabel": "Organization"
+              },
+              "mandatory": "true",
+              "repeatable": "false",
+              "type": "resource",
+              "repeatable": "false",
+              "valueConstraint": {
+                "descriptionTemplateRef": [
+                  "bfp:Agent:Organization"
+                ]
+              }
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
+                "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
             }
-        ]
-    }
+          ]
+        }
+      },
+      {
+        "id": "bfp:Concept:Person",
+        "class": {
+          "classLabel": "Concept (Person)",
+          "type": "http://bibfra.me/vocab/marc/ConceptPerson",
+          "labelProperty": "http://bibfra.me/vocab/lite/label",
+          "propertyTemplate": [
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/lite/focus",
+                "propertyLabel": "Person"
+              },
+              "mandatory": "true",
+              "repeatable": "false",
+              "type": "resource",
+              "repeatable": "false",
+              "valueConstraint": {
+                "descriptionTemplateRef": [
+                  "bfp:Agent:Person"
+                ]
+              }
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
+                "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bfp:Concept:Topic",
+        "class": {
+          "classLabel": "Concept (Topical)",
+          "type": "http://bibfra.me/vocab/marc/ConceptTopical",
+          "labelProperty": "http://bibfra.me/vocab/lite/label",
+          "propertyTemplate": [
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/lite/focus",
+                "propertyLabel": "Topic"
+              },
+              "mandatory": "true",
+              "repeatable": "false",
+              "type": "resource",
+              "repeatable": "false",
+              "valueConstraint": {
+                "descriptionTemplateRef": [
+                  "bfp:Authority:Topic"
+                ]
+              }
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
+                "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bfp:Concept:Place",
+        "class": {
+          "classLabel": "Concept (Place)",
+          "type": "http://bibfra.me/vocab/marc/ConceptPlace",
+          "labelProperty": "http://bibfra.me/vocab/lite/label",
+          "propertyTemplate": [
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/lite/focus",
+                "propertyLabel": "Place"
+              },
+              "mandatory": "true",
+              "repeatable": "false",
+              "type": "resource",
+              "repeatable": "false",
+              "valueConstraint": {
+                "descriptionTemplateRef": [
+                  "bfp:Authority:Place"
+                ]
+              }
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
+                "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }
