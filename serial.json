@@ -284,7 +284,127 @@
               },
               "repeatable": "true",
               "type": "resource"
-            }
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/continues",
+                "propertyLabel": "Continues"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/continuesInPart",
+                "propertyLabel": "Continues in part"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/supersedes",
+                "propertyLabel": "Supersedes"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+             {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/supersedesInPart"",
+                "propertyLabel": "Supersedes in part"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/unionOf",
+                "propertyLabel": "Union of"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/absorbed"",
+                "propertyLabel": "Absorbed"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/absorbedInPart",
+                "propertyLabel": "Absorbed in part"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/continueBy",
+                "propertyLabel": "Continued by"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/continuedInPartBy",
+                "propertyLabel": "Continued in part by"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/supersededBy",
+                "propertyLabel": "Superseded by"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/supersededInPartBy/",
+                "propertyLabel": "Superseded in part by"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+           {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/absorbedBy",
+                "propertyLabel": "Absorbed by"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/splitInto",
+                "propertyLabel": "Split into"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/mergedWith",
+                "propertyLabel": "Merged with"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
+            {
+              "property": {
+                "id": "http://bibfra.me/view/links/relation/changedBackTo",
+                "propertyLabel": "Changed back to"
+              },
+              "repeatable": "true",
+              "type": "resource"
+            },
           ]
         }
       },
