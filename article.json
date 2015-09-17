@@ -49,6 +49,20 @@
                                     "bfp:Authority:Topic"
                                 ]
                             }
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/lite/memberOf",
+                                "propertyLabel": "Member of Series"
+                            },
+                            "type": "literal"
                         }
                     ]
                 }
@@ -268,6 +282,41 @@
                                 "propertyLabel": "Issue Number"
                             },
                             "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
                         }
                     ]
                 }
@@ -422,6 +471,15 @@
                         },
                         {
                             "property": {
+                                "id": "http://bibfra.me/vocab/marc/otherPhysicalDetails",
+                                "propertyLabel": "Other Physical Details"
+                            },
+                            "repeatable": "true",
+                            "type": "literal"
+                        },
+                        
+                        {
+                            "property": {
                                 "id": "http://bibfra.me/vocab/lite/link",
                                 "propertyLabel": "URI"
                             },
@@ -485,6 +543,34 @@
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/issueNumber",
                                 "propertyLabel": "Issue Number"
+                            },
+                            "type": "literal"
+                        },
+                         {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
                             },
                             "type": "literal"
                         }
