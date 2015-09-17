@@ -273,7 +273,14 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/classificationLcc",
-                                "propertyLabel": "LCC Classification"
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/lite/memberOf",
+                                "propertyLabel": "Member of Series"
                             },
                             "type": "literal"
                         }
