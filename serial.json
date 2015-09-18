@@ -19,8 +19,8 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
-                                "propertyLabel": "Library of Congress Call Number"
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
                             },
                             "repeatable": "true",
                             "type": "literal"
@@ -1154,6 +1154,14 @@
                             "property": {
                                 "id": "http://bibfra.me/vocab/lite/dimensions",
                                 "propertyLabel": "Dimensions"
+                            },
+                            "repeatable": "true",
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/otherPhysicalDetails",
+                                "propertyLabel": "Other Physical Details"
                             },
                             "repeatable": "true",
                             "type": "literal"
