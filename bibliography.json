@@ -592,6 +592,22 @@
                         },
                         {
                             "property": {
+                                "id": "http://bibfra.me/vocab/marc/dimensions",
+                                "propertyLabel": "Dimensions"
+                            },
+                            "repeatable": "true",
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/otherPhysicalDetails",
+                                "propertyLabel": "Other Physical Details"
+                            },
+                            "repeatable": "true",
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
                                 "id": "http://bibfra.me/vocab/lite/link",
                                 "propertyLabel": "URI"
                             },
