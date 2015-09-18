@@ -445,15 +445,15 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber>",
+                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
-                                "propertyLabel": National Library of Medicine Call Number"
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
                             },
                             "type": "literal"
                         },
@@ -616,15 +616,15 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber>",
+                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
-                                "propertyLabel": National Library of Medicine Call Number"
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
                             },
                             "type": "literal"
                         },
