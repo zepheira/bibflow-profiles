@@ -283,7 +283,7 @@
                             },
                             "type": "literal"
                         },
-                        {
+                       {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/docCallNumber",
                                 "propertyLabel": "Federal or State Government Document Call Number"
@@ -293,28 +293,21 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
-                                "propertyLabel": "Federal or State Government Document Call Number"
-                            },
-                            "type": "literal"
-                        },
-                        {
-                            "property": {
-                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/lcCallNumber",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "propertyLabel": "Library of Congress Call Number"
                             },
                             "type": "literal"
                         }
@@ -545,7 +538,7 @@
                             },
                             "type": "literal"
                         },
-                         {
+                        {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/docCallNumber",
                                 "propertyLabel": "Federal or State Government Document Call Number"
@@ -555,21 +548,21 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber>",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
                             },
                             "type": "literal"
                         },
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/lcCallNumber",
-                                "propertyLabel": "Federal or State Government Document Call Number"
+                                "propertyLabel": "Library of Congress Call Number"
                             },
                             "type": "literal"
                         }
