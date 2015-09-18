@@ -165,10 +165,10 @@
                             "type": "resource",
                             "valueConstraint": {
                                 "descriptionTemplateRef": [
-                                    "bfp:Agent:Person", 
-                                    "bfp:Agent:Organization", 
-                                    "bfp:Authority:Place", 
-                                    "bfp:Authority:Topic"
+                                    "bfp:Concept:Person", 
+                                    "bfp:Concept:Organization", 
+                                    "bfp:Concept:Place", 
+                                    "bfp:Concept:Topic"
                                 ]
                             }
                         },

@@ -108,9 +108,9 @@
                             "type": "resource",
                             "valueConstraint": {
                                 "descriptionTemplateRef": [
-                                    "bfp:Agent:Person",
-                                    "bfp:Agent:Organization",
-                                    "bfp:Authority:Topic"
+                                    "bfp:Concept:Person",
+                                    "bfp:Concept:Organization",
+                                    "bfp:Concept:Topic"
                                 ]
                             }
                         },
