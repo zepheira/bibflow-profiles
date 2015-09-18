@@ -19,8 +19,8 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
-                                "propertyLabel": "Library of Congress Call Number"
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
                             },
                             "repeatable": "true",
                             "type": "literal"
@@ -1047,14 +1047,6 @@
                                                             "bfp:Work:Dissertation"
                                                         ]
                                                     }
-                                                },
-                                                {
-                                                    "property": {
-                                                        "id": "http://bibfra.me/vocab/marc/classificationLcc",
-                                                        "propertyLabel": "LCC Classification"
-                                                    },
-                                                    "repeatable": "true",
-                                                    "type": "literal"
                                                 },
                                                 {
                                                     "property": {
