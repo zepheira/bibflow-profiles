@@ -34,6 +34,13 @@
                         },
                         {
                             "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
                                 "id": "http://bibfra.me/vocab/relation/artist",
                                 "propertyLabel": "Artist"
                             },
@@ -45,7 +52,14 @@
                                     "bfp:Agent:Organization",
                                     "bfp:Agent:Family"
                                 ]
-                            }
+                            },
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
                         },
                         {
                             "property": {
@@ -193,6 +207,34 @@
                         {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "propertyLabel": "UC Davis Library Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Library of Congress Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                         {
+                            "property": {
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
