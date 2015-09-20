@@ -443,9 +443,9 @@
                             },
                             "type": "literal"
                         },
-                        {
+                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
@@ -614,9 +614,9 @@
                             },
                             "type": "literal"
                         },
-                        {
+                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
