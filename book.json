@@ -59,6 +59,13 @@
                         },
                         {
                             "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
                                 "id": "http://bibfra.me/vocab/relation/editor",
                                 "propertyLabel": "Editor"
                             },
@@ -488,7 +495,7 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
@@ -667,7 +674,7 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
