@@ -20,7 +20,7 @@
             {
               "property": {
                 "id": "http://bibfra.me/vocab/marc/classificationLcc",
-                "propertyLabel": "LC Classification"
+                "propertyLabel": "Library of Congress Classification"
               },
               "repeatable": "true",
               "type": "literal"
