@@ -323,12 +323,11 @@
                                 ]
                             }
                         },
-                        {
+                                                {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/classificationLcc",
-                                "propertyLabel": "LCC Classification"
+                                "propertyLabel": "Library of Congress Classification"
                             },
-                            "repeatable": "true",
                             "type": "literal"
                         },
                         {
@@ -497,9 +496,9 @@
                             },
                             "type": "literal"
                         },
-                        {
+                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
@@ -741,7 +740,7 @@
                         },
                         {
                             "property": {
-                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
                                 "propertyLabel": "UC Davis Library Call Number"
                             },
                             "type": "literal"
