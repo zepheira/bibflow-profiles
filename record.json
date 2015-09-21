@@ -52,7 +52,7 @@
                                     "bfp:Agent:Organization",
                                     "bfp:Agent:Family"
                                 ]
-                            },
+                            }
                         },
                         {
                             "property": {
