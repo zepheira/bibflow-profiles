@@ -35,14 +35,6 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/formSubdivision",
-                "propertyLabel": "Form subdivision"
-              },
-              "repeatable": "true",
-              "type": "literal"
-            },
-            {
-              "property": {
                 "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
                 "propertyLabel": "Geographic subdivision"
               },
@@ -53,6 +45,14 @@
               "property": {
                 "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
                 "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+                        {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -92,14 +92,6 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/formSubdivision",
-                "propertyLabel": "Form subdivision"
-              },
-              "repeatable": "true",
-              "type": "literal"
-            },
-            {
-              "property": {
                 "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
                 "propertyLabel": "Geographic subdivision"
               },
@@ -110,6 +102,14 @@
               "property": {
                 "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
                 "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+                        {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -149,14 +149,6 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/formSubdivision",
-                "propertyLabel": "Form subdivision"
-              },
-              "repeatable": "true",
-              "type": "literal"
-            },
-            {
-              "property": {
                 "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
                 "propertyLabel": "Geographic subdivision"
               },
@@ -167,6 +159,14 @@
               "property": {
                 "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
                 "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+                        {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -206,14 +206,6 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/formSubdivision",
-                "propertyLabel": "Form subdivision"
-              },
-              "repeatable": "true",
-              "type": "literal"
-            },
-            {
-              "property": {
                 "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
                 "propertyLabel": "Geographic subdivision"
               },
@@ -224,6 +216,14 @@
               "property": {
                 "id": "http://bibfra.me/vocab/marc/chronologicalSubdivision",
                 "propertyLabel": "Temporal subdivision"
+              },
+              "repeatable": "true",
+              "type": "literal"
+            },
+                        {
+              "property": {
+                "id": "http://bibfra.me/vocab/marc/formSubdivision",
+                "propertyLabel": "Form subdivision"
               },
               "repeatable": "true",
               "type": "literal"
