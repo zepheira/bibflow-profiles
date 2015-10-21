@@ -27,16 +27,16 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
-                "propertyLabel": "General subdivision"
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
               },
               "repeatable": "true",
               "type": "literal"
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
-                "propertyLabel": "Geographic subdivision"
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -84,16 +84,16 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
-                "propertyLabel": "General subdivision"
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
               },
               "repeatable": "true",
               "type": "literal"
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
-                "propertyLabel": "Geographic subdivision"
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -141,16 +141,16 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
-                "propertyLabel": "General subdivision"
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
               },
               "repeatable": "true",
               "type": "literal"
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
-                "propertyLabel": "Geographic subdivision"
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
               },
               "repeatable": "true",
               "type": "literal"
@@ -198,16 +198,16 @@
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
-                "propertyLabel": "General subdivision"
+                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
+                "propertyLabel": "Geographic subdivision"
               },
               "repeatable": "true",
               "type": "literal"
             },
             {
               "property": {
-                "id": "http://bibfra.me/vocab/marc/geographicSubdivision",
-                "propertyLabel": "Geographic subdivision"
+                "id": "http://bibfra.me/vocab/marc/generalSubdivision",
+                "propertyLabel": "General subdivision"
               },
               "repeatable": "true",
               "type": "literal"
