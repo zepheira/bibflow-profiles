@@ -49,12 +49,10 @@
                                 "propertyLabel": "Author"
                             },
                             "type": "resource",
-                            "repeatable": "true",
+                            "repeatable": "false",
                             "valueConstraint": {
                                 "descriptionTemplateRef": [
-                                    "bfp:Agent:Person",
-                                    "bfp:Agent:Organization",
-                                    "bfp:Agent:Meeting"
+                                    "bfp:Agent:Person"
                                 ]
                             }
                         },
@@ -194,7 +192,9 @@
                             "repeatable": "true",
                             "type": "resource",
                             "valueConstraint": {
-                                "descriptionTemplateRef": [ "bfp:Category:Language" ]
+                                "descriptionTemplateRef": [
+                                    "bfp:Category:Language"
+                                ]
                             }
                         },
                         {
@@ -214,10 +214,10 @@
                             "type": "resource",
                             "valueConstraint": {
                                 "descriptionTemplateRef": [
-                                    "bfp:Agent:Person",
-                                    "bfp:Agent:Organization",
-                                    "bfp:Authority:Place",
-                                    "bfp:Authority:Topic"
+                                    "bfp:Concept:Person",
+                                    "bfp:Concept:Organization",
+                                    "bfp:Concept:Place",
+                                    "bfp:Concept:Topic"
                                 ]
                             }
                         },
@@ -323,12 +323,11 @@
                                 ]
                             }
                         },
-                        {
+                                                {
                             "property": {
                                 "id": "http://bibfra.me/vocab/marc/classificationLcc",
-                                "propertyLabel": "LCC Classification"
+                                "propertyLabel": "Library of Congress Classification"
                             },
-                            "repeatable": "true",
                             "type": "literal"
                         },
                         {
@@ -488,6 +487,34 @@
                                 "propertyLabel": "Computer File Characteristics"
                             },
                             "repeatable": "true",
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                         {
+                            "property": {
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
+                                "propertyLabel": "UC Davis Library Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Library of Congress Call Number"
+                            },
                             "type": "literal"
                         }
                     ]
@@ -703,6 +730,34 @@
                             },
                             "repeatable": "true",
                             "type": "resource"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
+                                "propertyLabel": "UC Davis Library Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Library of Congress Call Number"
+                            },
+                            "type": "literal"
                         }
                     ]
                 }

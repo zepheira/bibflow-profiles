@@ -34,6 +34,13 @@
                         },
                         {
                             "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
                                 "id": "http://bibfra.me/vocab/relation/artist",
                                 "propertyLabel": "Artist"
                             },
@@ -46,6 +53,13 @@
                                     "bfp:Agent:Family"
                                 ]
                             }
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/classificationLcc",
+                                "propertyLabel": "Library of Congress Classification"
+                            },
+                            "type": "literal"
                         },
                         {
                             "property": {
@@ -108,9 +122,9 @@
                             "type": "resource",
                             "valueConstraint": {
                                 "descriptionTemplateRef": [
-                                    "bfp:Agent:Person" ,
-                                    "bfp:Agent:Organization", 
-                                    "bfp:Authority:Topic"
+                                    "bfp:Concept:Person",
+                                    "bfp:Concept:Organization",
+                                    "bfp:Concept:Topic"
                                 ]
                             }
                         },
@@ -122,7 +136,9 @@
                             "repeatable": "true",
                             "type": "resource",
                             "valueConstraint": {
-                                "descriptionTemplateRef": [ "bfp:Category:Language" ]
+                                "descriptionTemplateRef": [
+                                    "bfp:Category:Language"
+                                ]
                             }
                         },
                         {
@@ -133,7 +149,9 @@
                             "repeatable": "true",
                             "type": "resource",
                             "valueConstraint": {
-                                "descriptionTemplateRef": [ "bfp:Audio:Track" ]
+                                "descriptionTemplateRef": [
+                                    "bfp:Audio:Track"
+                                ]
                             }
                         }
                     ]
@@ -162,19 +180,79 @@
                             "repeatable": "true",
                             "type": "resource",
                             "valueConstraint": {
-                                "descriptionTemplateRef": [ "bfp:Event:ProviderEvent" ]
+                                "descriptionTemplateRef": [
+                                    "bfp:Event:ProviderEvent"
+                                ]
                             }
                         },
-            {
+                        {
                             "property": {
                                 "id": "http://bibfra.me/vocab/lite/image",
                                 "propertyLabel": "Album Cover"
                             },
                             "type": "resource",
                             "valueConstraint": {
-                                "descriptionTemplateRef": [ "e:Image" ]
+                                "descriptionTemplateRef": [
+                                    "e:Image"
+                                ]
                             }
-            }
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/ucdCallNumber",
+                                "propertyLabel": "UC Davis Library Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Library of Congress Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/docCallNumber",
+                                "propertyLabel": "Federal or State Government Document Call Number"
+                            },
+                            "type": "literal"
+                        },
+                         {
+                            "property": {
+                                "id": "http://lib.ucdavis.edu/vocab/ucdCallNumber",
+                                "propertyLabel": "UC Davis Library Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/nlmCallNumber",
+                                "propertyLabel": "National Library of Medicine Call Number"
+                            },
+                            "type": "literal"
+                        },
+                        {
+                            "property": {
+                                "id": "http://bibfra.me/vocab/marc/lcCallNumber",
+                                "propertyLabel": "Library of Congress Call Number"
+                            },
+                            "type": "literal"
+                        }
                     ]
                 }
             },
